@@ -9,11 +9,6 @@
   status = 200
 
 [[redirects]]
-  from = "/*"gitls
+  from = "/*"
   to = "/.netlify/functions/server"
   status = 200
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Custom-Toml = "Toml"

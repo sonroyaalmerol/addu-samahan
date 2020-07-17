@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'relative',
     float: 'right',
     marginTop: 'calc(100px + 1em)',
-    marginRight: 'calc(20px + 2em)',
+    marginRight: 'calc(60px - 2em)',
     fontWeight: 20,
     color: theme.palette.secondary.main,
     zIndex: 3

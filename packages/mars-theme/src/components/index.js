@@ -60,7 +60,6 @@ export default connect(Theme);
 
 const Main = styled.div`
   display: flex;
-  justify-content: center;
   height: 100%;
   background-image: '#fff';
 `;

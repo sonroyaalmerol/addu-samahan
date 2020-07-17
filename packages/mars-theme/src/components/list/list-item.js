@@ -18,16 +18,12 @@ import { fade, makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   cardRoot: {
-    position: 'relative',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
     marginTop: 40,
     minWidth: 275,
-    minHeight: '50vh',
     borderRadius: 0
-  },
-  cardActions: {
-    position: 'absolute',
-    bottom: 10,
-    left: 5
   },
 }));
 
@@ -54,22 +50,20 @@ const Item = ({ state, item, actions }) => {
   }, [item.excerpt])
 
   return (
-    <Grid item xs>
-      <Card className={classes.cardRoot} elevation={0} variant="outlined">
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2" dangerouslySetInnerHTML={{ __html: item.title.rendered }} />
-          {author && (
-            <Typography variant="body2" color="textSecondary" component="p">By <b>{author.name}</b></Typography>
-          )}
-          <Typography variant="body2" color="textSecondary" component="p">on <b>{date.toDateString()}</b></Typography>
-          <Typography variant="body1" color="textSecondary" component="p" dangerouslySetInnerHTML={{ __html: renderedExcerpt }} />
-        </CardContent>
-        <CardActions className={classes.cardActions}>
-          <Button variant="contained" color="primary" disableElevation onClick={() => actions.router.set(item.link)}>
-            Read More
-          </Button>
-        </CardActions>
-      </Card>
+    <Grid item component={Card} xs className={classes.cardRoot} elevation={0} variant="outlined">
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="h2" dangerouslySetInnerHTML={{ __html: item.title.rendered }} />
+        {author && (
+          <Typography variant="body2" color="textSecondary" component="p">By <b>{author.name}</b></Typography>
+        )}
+        <Typography variant="body2" color="textSecondary" component="p">on <b>{date.toDateString()}</b></Typography>
+        <Typography variant="body1" color="textSecondary" component="p" dangerouslySetInnerHTML={{ __html: renderedExcerpt }} />
+      </CardContent>
+      <CardActions>
+        <Button variant="contained" color="primary" disableElevation onClick={() => actions.router.set(item.link)}>
+          Read More
+        </Button>
+      </CardActions>
     </Grid>
   );
 };

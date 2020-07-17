@@ -16,19 +16,18 @@ const useStyles = makeStyles((theme) => ({
 
 const List = ({ state, actions }) => {
   // Get the data of the current list.
-  const data = state.source.get(state.router.link);
   const classes = useStyles();
 
   return (
     <Grid container direction="row" spacing={6} alignItems="center">
       <Grid item md>
-        <Typography variant="h4" component="h2" style={{ lineHeight: '1.5em', fontSize: '2vw' }}>
+        <Typography variant="h4" component="h2" style={{ lineHeight: '1.5em', fontSize: 'calc(10px + 1vw)' }}>
           Need some help? Go to
         </Typography>
-        <Typography variant="h1" component="h2" className={classes.contentHeader} style={{ lineHeight: '0.8em', fontSize: '5vw' }}>
+        <Typography variant="h1" component="h2" className={classes.contentHeader} style={{ lineHeight: '0.8em', fontSize: 'calc(30px + 4vw)' }}>
           SAMAHAN
         </Typography>
-        <Typography variant="h1" component="h2" className={classes.contentHeader} style={{ lineHeight: '0.8em', fontSize: '5vw' }}>
+        <Typography variant="h1" component="h2" className={classes.contentHeader} style={{ lineHeight: '0.8em', fontSize: 'calc(30px + 4vw)' }}>
           HELP PORTAL
         </Typography><br />
         <Button variant="contained" color="primary" disableElevation onClick={() => actions.router.set('/samahan-help-portal/')}>

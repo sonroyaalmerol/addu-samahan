@@ -53,7 +53,7 @@ const List = ({ state, actions }) => {
       )}
 
       {/* Iterate over the items of the list. */}
-      <Grid container direction="row" spacing={3}>
+      <Grid container direction="row" spacing={3} alignItems="stretch">
         {data.items.map(({ type, id }) => {
           const item = state.source[type][id];
           // Render one Item component for each one.

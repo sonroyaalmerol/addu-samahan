@@ -111,7 +111,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(0)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://i1.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/CA2-scaled.jpg"
+                image="http://samahan.addu.edu.ph/wp-content/uploads/2020/05/CA2-scaled.jpg"
                 title="Climate Action"
               />
             </CardActionArea>
@@ -122,7 +122,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(1)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/MH1-scaled.jpg"
+                image="http://samahan.addu.edu.ph/wp-content/uploads/2020/05/MH1-scaled.jpg"
                 title="Mental Health"
               />
             </CardActionArea>
@@ -133,7 +133,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(2)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://i1.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/RP-scaled.jpg"
+                image="http://samahan.addu.edu.ph/wp-content/uploads/2020/05/RP-scaled.jpg"
                 title="Rural Poor"
               />
             </CardActionArea>
@@ -144,7 +144,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(3)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/GG-scaled.jpg"
+                image="http://samahan.addu.edu.ph/wp-content/uploads/2020/05/GG-scaled.jpg"
                 title="Good Governance"
               />
             </CardActionArea>
@@ -155,7 +155,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(4)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://i1.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/YL-scaled.jpg"
+                image="http://samahan.addu.edu.ph/wp-content/uploads/2020/05/YL-scaled.jpg"
                 title="Youth Empowerment and Leadership"
               />
             </CardActionArea>
@@ -166,7 +166,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(5)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/P-scaled.jpg"
+                image="http://samahan.addu.edu.ph/wp-content/uploads/2020/05/P-scaled.jpg"
                 title="Peacebuilding"
               />
             </CardActionArea>

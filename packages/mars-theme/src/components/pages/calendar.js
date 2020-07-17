@@ -22,7 +22,7 @@ const Page = ({ state, actions }) => {
   return (
     <Container>
       {/* Insert header here! */}
-      <img src="https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/06/1.-June.png" width="100%" />
+      <img src="http://samahan.addu.edu.ph/wp-content/uploads/2020/06/1.-June.png" width="100%" />
       <div className={classes.spacer} />
       <CalendarContainer>
         <Calendar />

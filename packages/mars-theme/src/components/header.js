@@ -121,7 +121,7 @@ function SearchAppBar() {
             <NavBurger onChosen={() => setDrawer(false)} />
           </Drawer>
           <div className={classes.title}>
-            <Logo src="https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2018/07/Samahan-Top-Bar-Logo.png?resize=300%2C102" />
+            <Logo src="http://samahan.addu.edu.ph/wp-content/uploads/2018/07/Samahan-Top-Bar-Logo.png" />
           </div>
           <Nav />
           <div className={classes.search}>
@@ -146,7 +146,7 @@ function SearchAppBar() {
             <SearchIcon />
           </IconButton>
           <div className={classes.secondaryLogo}>
-            <Logo src="https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2018/07/More-in-Motion.png?resize=150%2C150" />
+            <Logo src="http://samahan.addu.edu.ph/wp-content/uploads/2018/07/More-in-Motion.png" />
           </div>
         </Toolbar>
       </AppBar>

@@ -45,55 +45,55 @@ const Page = ({ state, actions }) => {
       name: 'Samantha Claire Cayona',
       position: 'SECRETARY-GENERAL',
       email: 'scgcayona@addu.edu.ph',
-      img: 'https://i1.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/2.png'
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/2.png'
     },
     {
       name: 'Rona Marie De Castro',
       position: 'TREASURER',
       email: 'rmcdecastro@addu.edu.ph',
-      img: 'https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/3.png'
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/3.png'
     },
     {
       name: 'Elijah James Banuelos',
       position: 'ADMINSTRATIVE UNDERSECRETARY',
       email: 'ejcbanuelos@addu.edu.ph',
-      img: 'https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/8.png'
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/8.png'
     },
     {
       name: 'Riza Claire Pardillo',
       position: 'FINANCE SECRETARY',
       email: 'rizcapardillo@addu.edu.ph',
-      img: 'https://i1.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/2.png'
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/2.png'
     },
     {
       name: 'Marion James Tarnate',
       position: 'FINANCE UNDERSECRETARY',
       email: 'mjttarnate@addu.edu.ph',
-      img: 'https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/9.png'
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/9.png'
     },
     {
       name: 'Aldriena Thehani Angas',
       position: 'CHIEF-OF-STAFF',
       email: 'attangas@addu.edu.ph',
-      img: 'https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/5.png'
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/5.png'
     },
     {
       name: 'Mary Angelie M. Ocon',
       position: 'EXECUTIVE SECRETARY',
       email: 'mamocon@addu.edu.ph',
-      img: 'https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/6.png'
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/6.png'
     },
     {
       name: 'Michael John Vorgs Villas',
       position: 'EXECUTIVE UNDERSECRETARY',
       email: 'mjvrvillas@addu.edu.ph',
-      img: 'https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/4.png'
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/4.png'
     },
     {
       name: 'Euneece Olbes',
       position: 'ADMINISTRATIVE SECRETARY',
       email: 'eafolbes@addu.edu.ph',
-      img: 'https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/7.png'
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/7.png'
     }
   ]
 
@@ -117,7 +117,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea disabled>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/1.png"
+                image="http://samahan.addu.edu.ph/wp-content/uploads/2020/05/1.png"
                 title="President"
               />
               <CardContent>

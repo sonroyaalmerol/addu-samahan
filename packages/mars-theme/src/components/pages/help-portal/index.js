@@ -62,7 +62,7 @@ const Page = ({ state, actions }) => {
   return (
     <Container>
       <div className={classes.spacer} />
-      
+
       <Grid container direction="row" spacing={3} alignItems="center" className={classes.contentContainer}>
         <Grid item sm>
           <Typography variant="h1" component="h2" className={classes.contentHeader} style={{ lineHeight: '0.8em', fontSize: 'calc(30px + 4vw)' }}>
@@ -79,7 +79,7 @@ const Page = ({ state, actions }) => {
           </Typography>
         </Grid>
         <Grid item sm>
-          <img src="https://i1.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/06/Concerns-Flowchart-White.png" style={{ width: '100%', height: 'auto' }} />
+          <img src="http://samahan.addu.edu.ph/wp-content/uploads/2020/06/Concerns-Flowchart-White.png" style={{ width: '100%', height: 'auto' }} />
         </Grid>
       </Grid>
 

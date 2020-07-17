@@ -36,7 +36,7 @@ const List = ({ state, actions }) => {
       </Grid>
       <Grid item md>
         <center>
-          <img src="https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/EX9n9N3UYAAOt62.jpg?resize=768%2C768" style={{ width: '100%' }} />
+          <img src="http://samahan.addu.edu.ph/wp-content/uploads/2020/05/EX9n9N3UYAAOt62.jpg" style={{ width: '100%' }} />
         </center>
       </Grid>
     </Grid>

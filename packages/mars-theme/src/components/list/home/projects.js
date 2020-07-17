@@ -48,7 +48,7 @@ const List = ({ state, actions }) => {
         <Grid item component={Card} xs className={classes.cardRoot} elevation={0}>
           <CardMedia
             className={classes.cardMedia}
-            image="https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/board-ihelp2-1.png?resize=768%2C528"
+            image="http://samahan.addu.edu.ph/wp-content/uploads/2020/05/board-ihelp2-1.png"
             title="iHELP"
           />
           <CardContent>
@@ -69,7 +69,7 @@ const List = ({ state, actions }) => {
         <Grid item component={Card} xs className={classes.cardRoot} elevation={0}>
           <CardMedia
             className={classes.cardMedia}
-            image="https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/board-student-services.png?resize=768%2C528"
+            image="http://samahan.addu.edu.ph/wp-content/uploads/2020/05/board-student-services.png"
             title="Student Service Manual"
           />
           <CardContent>
@@ -91,7 +91,7 @@ const List = ({ state, actions }) => {
         <Grid item component={Card} xs className={classes.cardRoot} elevation={0}>
           <CardMedia
             className={classes.cardMedia}
-            image="https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/board-consti.png?resize=768%2C528"
+            image="http://samahan.addu.edu.ph/wp-content/uploads/2020/05/board-consti.png"
             title="ConstiNatinTo"
           />
           <CardContent>

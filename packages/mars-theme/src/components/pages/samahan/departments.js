@@ -49,7 +49,7 @@ const Page = ({ state, actions }) => {
   const departments = [
     {
       name: 'Department of Student Rights and Welfare',
-      img: 'https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/STRAW.png?resize=300%2C300',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/STRAW.png',
       desc: <>
         <Typography>
           <b>Director: </b> Jyp Phyllis Galan 
@@ -71,7 +71,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Office of the Buklod Ambassador',
-      img: 'https://i1.wp.com/samahan.addu.edu.ph/wp-content/uploads/2018/08/OBA.png?w=281',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2018/08/OBA.png?w=281',
       desc: <>
         <Typography>
           <b>Buklod Ambassador: </b> Trixy Marie Macaraeg
@@ -93,7 +93,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Ecoteneo Student Unit',
-      img: 'https://i1.wp.com/samahan.addu.edu.ph/wp-content/uploads/2018/08/ECOTEN2.png?resize=300%2C300',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2018/08/ECOTEN2.png',
       desc: <>
         <Typography>
           <b>Director: </b> Nur-aine Jaizzah Isla
@@ -115,7 +115,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Campaigns and Advocacies',
-      img: 'https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/SDCA.png?resize=300%2C300',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/SDCA.png',
       desc: <>
         <Typography>
           <b>Director: </b> Vincent Campos
@@ -137,7 +137,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Systems Development',
-      img: 'https://i1.wp.com/samahan.addu.edu.ph/wp-content/uploads/2018/08/SYSDEV.png?w=281',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2018/08/SYSDEV.png?w=281',
       desc: <>
         <Typography>
           <b>Director: </b> Gabriel Paderna  
@@ -159,7 +159,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Research and Development',
-      img: 'https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2018/08/RD.png?w=281',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2018/08/RD.png?w=281',
       desc: <>
         <Typography>
           <b>Director: </b> 
@@ -181,7 +181,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Communications',
-      img: 'https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2018/08/COMMS.png?w=281',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2018/08/COMMS.png?w=281',
       desc: <>
         <Typography>
           <b>Director: </b> Janine Dela Cruz
@@ -203,7 +203,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Ateneo SAMAHAN Productions',
-      img: 'https://i1.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/MAIN.png?resize=300%2C300',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/MAIN.png',
       desc: <>
         <Typography>
           <b>Director: </b> Jacqueline Laurente
@@ -225,7 +225,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'SAMAHAN Creative Team',
-      img: 'https://i1.wp.com/samahan.addu.edu.ph/wp-content/uploads/2018/08/SCT.png?w=281',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2018/08/SCT.png?w=281',
       desc: <>
         <Typography>
           <b>Director: </b> Kenth Cervantes
@@ -247,7 +247,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Logistics',
-      img: 'https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/SAMAHAN-Logistics.png?resize=300%2C300',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/SAMAHAN-Logistics.png',
       desc: <>
         <Typography>
           <b>Director: </b> Jeffson Occidental
@@ -269,7 +269,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Sponsorships and Support',
-      img: 'https://i2.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/SAMAHAN-SAS.png?resize=300%2C300',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/SAMAHAN-SAS.png',
       desc: <>
         <Typography>
           <b>Director: </b> Genesis Angelo Villacorta
@@ -291,7 +291,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Internal Audit',
-      img: 'https://i0.wp.com/samahan.addu.edu.ph/wp-content/uploads/2020/05/SAMAHAN-DIA.png?resize=300%2C300',
+      img: 'http://samahan.addu.edu.ph/wp-content/uploads/2020/05/SAMAHAN-DIA.png',
       desc: <>
         <Typography>
           <b>Director: </b> Harris C. Tuyongan

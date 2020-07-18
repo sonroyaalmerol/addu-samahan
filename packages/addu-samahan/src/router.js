@@ -2,7 +2,6 @@ export const helpPortalHandler = {
   priority: 10,
   pattern: "/samahan-help-portal/",
   func: ({ state }) => {
-    console.log("hello!");
     state.source.data["/samahan-help-portal/"].isHelpPortal = true;
   }
 }

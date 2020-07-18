@@ -21,7 +21,7 @@ const Page = ({ state, actions }) => {
   return (
     <Container>
       {/* Insert header here! */}
-      <img src="https://lh3.googleusercontent.com/pw/ACtC-3e-j70ih-IaaRdnJxMLw3w0jcC_ZQt8gOQ8lotjcpTgjh6CocUm_V5ImhHqF3ulkcY9WxsyZ7oqqbTaWZ_EZUzfxlAgwjUWJ1QvTSrJ0CIu6sgeVPVoGl24Oi3x8C-0DkLoSFCHsfY-LwT38FqU45Ge=d" width="100%" />
+      <img src="https://samahan-cdn.snry.xyz/1.-June.png" width="100%" />
       <div className={classes.spacer} />
       <CalendarContainer>
         <Calendar />

@@ -113,7 +113,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(0)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://lh3.googleusercontent.com/pw/ACtC-3e04qc3u8KPp2o-RQseEF-YV5v7jji3-lU5pPvs9K2e-FdeBp3Hyc-KPBcy2iTlFgPd6flHLWTBpqT1T5gtbTOUf7OfPuKmM7ElOn6lQgLsmpeSxImY-FNNfhYWNoXoNCpmcKUzq0TSMnH_BW7m3O1f=d"
+                image="https://samahan-cdn.snry.xyz/CA2-scaled.jpg"
                 title="Climate Action"
               />
             </CardActionArea>
@@ -124,7 +124,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(1)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://lh3.googleusercontent.com/pw/ACtC-3eK1cA5Uf-Mik86PnaFNpEblsE8Bf4aALQau4MEjG5Zs1bRfh41LgjfkD9xhqkpUy5BdPNwl0qCL46xA3mHTP0dYZ9TZe1_NBFDTIjBdCmt3XYyPd09bw3pdLrVxvwxUlMQvvPC8a51vs3VfGO5rRp8=d"
+                image="https://samahan-cdn.snry.xyz/MH1-scaled.jpg"
                 title="Mental Health"
               />
             </CardActionArea>
@@ -135,7 +135,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(2)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://lh3.googleusercontent.com/pw/ACtC-3f-knyGodFLvcmHl9yHnwdLKawAOr85r9eyfFVvIMN2hjXg5HAo3Y2JBfLtaRWb-uqq2NtWqK-cwm0w7G7dskE4130aTylKIY2DPVkOVoCty-ZdRexfQIUUzXsnSyr81ePN5Vhthb5rziOTRAbMq0PO=d"
+                image="https://samahan-cdn.snry.xyz/RP-scaled.jpg"
                 title="Rural Poor"
               />
             </CardActionArea>
@@ -146,7 +146,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(3)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://lh3.googleusercontent.com/pw/ACtC-3cM-hL0IlFUkNFQNYKfCcjEmNAxLjCwg8T3NiglqmDGvpPyjeoVvUeMVQ4bRbPiZDBwfjkdNiVXXGctaNkhpG742y1mSzupJozWSh0Gw2F4KM5-hRAMtsGLX1-52bUani_5PZbnaw5iCxq78P-EY34k=d"
+                image="https://samahan-cdn.snry.xyz/GG-scaled.jpg"
                 title="Good Governance"
               />
             </CardActionArea>
@@ -157,7 +157,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(4)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://lh3.googleusercontent.com/pw/ACtC-3crLLGhxPztFm7g8Ubig_yfzXWwalhrqXw5EcD7NYGJMgzYDpLpTaYJ9tLi62Dz3J9QKI0MIUni2Rj7E6PKM5BFZHnhv4-Wj5auSHN1YL5t1saVa5e2BgyBs7QNGZLDTfyfvOykZYEiTbj2JJBK3_8U=d"
+                image="https://samahan-cdn.snry.xyz/YL-scaled.jpg"
                 title="Youth Empowerment and Leadership"
               />
             </CardActionArea>
@@ -168,7 +168,7 @@ const Page = ({ state, actions }) => {
             <CardActionArea onClick={() => setAdvocasix(5)}>
               <CardMedia
                 className={classes.cardMedia}
-                image="https://lh3.googleusercontent.com/pw/ACtC-3ejTj9F5qBPxZRP4LgJLSJaYCZ8DwTJ-iqyw1Sp7FIpyPt8Yhfm738mVYdJ1FqjbKtoEWeqSB-0RoPeSnpCUIv0BnFlmuHahFW7fQz8M9ZVU6Ye__IYE7H5YjPp-Y5yd_DP3tnI8RwZqpfhSo1KgM-x=d"
+                image="https://samahan-cdn.snry.xyz/P-scaled.jpg"
                 title="Peacebuilding"
               />
             </CardActionArea>

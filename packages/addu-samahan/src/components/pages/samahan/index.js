@@ -2,7 +2,6 @@ import React from "react";
 import { connect, styled, decode } from "frontity";
 import { fade, makeStyles } from '@material-ui/core/styles';
 import SamahanMotionLogo from '../../../assets/samahanMotion.svg';
-import SamahanDescriptionPicture from '../../../assets/samahanDesc.png';
 
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
@@ -64,7 +63,7 @@ const Page = ({ state, actions }) => {
         </Grid>
         <Hidden smDown>
           <Grid item sm>
-            <img src={SamahanDescriptionPicture} width="100%" />
+            <img src="https://samahan-cdn.snry.xyz/samahanDesc.png" width="100%" />
           </Grid>
         </Hidden>
       </Grid>

@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'row-reverse',
   },
   root: {
+    marginLeft: 20,
     flexGrow: 1,
     justifyContent: "center",
     display: 'none',

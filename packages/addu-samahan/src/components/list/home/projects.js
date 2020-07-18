@@ -47,7 +47,7 @@ const List = ({ state, actions }) => {
         <Grid item component={Card} xs className={classes.cardRoot} elevation={0}>
           <CardMedia
             className={classes.cardMedia}
-            image="https://lh3.googleusercontent.com/pw/ACtC-3cTn0LsIchxRdNpMWGWIa6--oPVlEwlmtn93zlUFXFWmxUyIXOTZvqRHAe11-6pG3TbKpODhDepR3h-9oZfPvatYya5EeBauk6m0XZLBaSM6GrBRYXbXCvrqZCa5kIFvQB07zusbh7rYoUZPUPpUr7l=d"
+            image="https://samahan-cdn.snry.xyz/board-ihelp2-1.png"
             title="iHELP"
           />
           <CardContent>
@@ -68,7 +68,7 @@ const List = ({ state, actions }) => {
         <Grid item component={Card} xs className={classes.cardRoot} elevation={0}>
           <CardMedia
             className={classes.cardMedia}
-            image="https://lh3.googleusercontent.com/pw/ACtC-3d5-mqu2-IIB2CkwzGH-SW5p6bV_FCFK19TP2psNPGSlHUp9mCl2NYI3JSVrcbjkTLdYv_FLSk1OkcGT1vu9sfnlPW4t-DhSbb0LK-aFg2DyvHfJGQJXy7cvVaI08XjGl5ysL6fdnUteKR_HAmz13fl=d"
+            image="https://samahan-cdn.snry.xyz/board-student-services.png"
             title="Student Service Manual"
           />
           <CardContent>
@@ -90,7 +90,7 @@ const List = ({ state, actions }) => {
         <Grid item component={Card} xs className={classes.cardRoot} elevation={0}>
           <CardMedia
             className={classes.cardMedia}
-            image="https://lh3.googleusercontent.com/pw/ACtC-3d-F1wAjMgTgrAJeCwlCgxc3vNuF7Jj9tN4a5mFa-whKJ-fASY90i8tSRSvUDumZ4AUP7EBuBtppPn415LjKm0Wt2gWc8yGuuGDe8LIgMT0wnzzg6arFNTwsCs3nIEQx2DGouMpD7RjgmbHQZCULRlK=d"
+            image="https://samahan-cdn.snry.xyz/board-consti.png"
             title="ConstiNatinTo"
           />
           <CardContent>

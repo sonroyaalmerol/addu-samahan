@@ -27,11 +27,13 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     justifyContent: 'space-between',
     marginTop: 40,
-    minWidth: 275,
+    width: 285,
     borderRadius: 0,
   },
   cardMedia: {
-    height: 350,
+    height: 285,
+    width: 285,
+    margin: 'auto'
   },
   modal: {
     display: 'flex',
@@ -52,7 +54,7 @@ const Page = ({ state, actions }) => {
   const departments = [
     {
       name: 'Department of Student Rights and Welfare',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3eor4rTgYAu3960mnofpQtC0A_Vl--stKaZ2ZuX7JGQyWVL5X4g95Mqj0rHt4OHs4zbYeB4o-6BFAmz8Gioq-oD-7lO_ox44FNbaq2GOiao1vFI2mxyhuAMCgkRfquvIokw5mVXNaYlAld_n3QCKdX-=d',
+      img: 'https://samahan-cdn.snry.xyz/STRAW.png',
       desc: <>
         <Typography>
           <b>Director: </b> Jyp Phyllis Galan 
@@ -74,7 +76,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Office of the Buklod Ambassador',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3dhbOLd17FI4X002wxDoY-tsV-6MCYQ7khUoil8AD025lR8V9KvZvXnKqEFQ7V3SJZCQQ1VzqKM2GZBFIdVAM4TH8T5g0Htyw7QzkP1C0wpfCUcHoSJx3fKywJa1x0glfIRYtkCoJsKwsCYHb7jHd0W=d',
+      img: 'https://samahan-cdn.snry.xyz/OBA.png',
       desc: <>
         <Typography>
           <b>Buklod Ambassador: </b> Trixy Marie Macaraeg
@@ -96,7 +98,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Ecoteneo Student Unit',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3eZzs0G2tqlfJbpKjhRTDstII7sOzxbLLQmvgPGMaKi8wE0_kqvZyfdaRC9t7Fj97KYz-ja0MbEV6k2lV0FNEyTTqFM7X-jefkVxksvpxKRDoAx4TLt2v52AJKMnWzXmP76yFwZ3ZNnlrs_Sc2fR5z3=d',
+      img: 'https://samahan-cdn.snry.xyz/ECOTEN2.png',
       desc: <>
         <Typography>
           <b>Director: </b> Nur-aine Jaizzah Isla
@@ -118,7 +120,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Campaigns and Advocacies',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3cp5ImKg5KCbB-RNYqDgbHo1e987THpzQKLi2Nu1sQP6WtTxi4Gd_rmlvfj7by8kwuvAVwiG39VvqVKWMl6WR2L03p6woso4ckbDj0UavsQN_26IGmtwlrIIofzUmmzrHNAwnkOW6uPHX7c3rtsuaif=d',
+      img: 'https://samahan-cdn.snry.xyz/SDCA.png',
       desc: <>
         <Typography>
           <b>Director: </b> Vincent Campos
@@ -140,7 +142,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Systems Development',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3eUNLqB0mNQ2VHGu2B03lIeRGnsUIIIAIrYCAx9OQ8ZcZNVVb2iN-i5_2snwXgVvaKmXLZuEb8QPHhPyzZNH9mvO1G0VoP0iRMVcFNx9ZxqWi0gS_uclWWzapuYQkX0pMxW4b5v2pFxuakj72LynuxG=d',
+      img: 'https://samahan-cdn.snry.xyz/SYSDEV.png',
       desc: <>
         <Typography>
           <b>Director: </b> Gabriel Paderna  
@@ -162,7 +164,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Research and Development',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3epSr2a1MLpiiP-sN2queBRWfqEFZayH4kOB3wMIFObUwkNf5K0Rq06zAv8ykvTmOX04QpDxmWgL-o1gus3PJptAmEPaViC5knViU5mLVw5jnUOzp5LPNrORAvuSo5pZ710GMpy5Zvr8ekcCmcsoBNL=d',
+      img: 'https://samahan-cdn.snry.xyz/RD.png',
       desc: <>
         <Typography>
           <b>Director: </b> 
@@ -184,7 +186,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Communications',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3dldrLGLV8KKMK7GGmRm1fpTozq9YFi2nSw5sd4cwLEWRbbRul4m2VwaYB6WJZAuvvT6phOls3_SbYUzDjFrDsicV35RWb2m4Kqez3u-NuOl1zBTRVdp859sRUORYQZo7Um2d-19GM6yTRGzAWNXesX=d',
+      img: 'https://samahan-cdn.snry.xyz/COMMS.png',
       desc: <>
         <Typography>
           <b>Director: </b> Janine Dela Cruz
@@ -206,7 +208,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Ateneo SAMAHAN Productions',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3c4Q2WaMY0_XVdm9ECUVR5lp0AsaG5bOHkzVoislzvfPHJ4k7xB-doQlZA0UO2UR8IMcsQwy7nKOZ8HikTq5B_2Mo_he3YeEyzlavhHJfoEFtbBP-J-QwGgxE_JECa0OHu3A1fSotfTm1WLFsP3UI47=d',
+      img: 'https://samahan-cdn.snry.xyz/MAIN.png',
       desc: <>
         <Typography>
           <b>Director: </b> Jacqueline Laurente
@@ -228,7 +230,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'SAMAHAN Creative Team',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3e9aJa8aCg8hCtwKCNubAYMOBN7Lw-eaUiU4Ze_tfP83n6sLKsdWsDMJDnchoRQW-C7vqKzvFqBnFMsPpi01HF-6m598nQV6G5KcBm6BN4hQW8DiyU_K9GAHDvCCkTzkZDcFH586WFSASXiDkiJv3mG=d',
+      img: 'https://samahan-cdn.snry.xyz/SCT.png',
       desc: <>
         <Typography>
           <b>Director: </b> Kenth Cervantes
@@ -250,7 +252,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Logistics',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3doRRKPQFy11Dkrm56uSjIAxWdebVWOlvXz9FZhFLS5VavgvsP6NfuWybG_SljVf8iiwPktIsT2VsakxXhMIyt5tMkbVNbqZdovbvpqRHPY34mL7Y__rFUSWmtgs4MgMmJ49MNkeH72UJmrkCYzVs1h=d',
+      img: 'https://samahan-cdn.snry.xyz/SAMAHAN-Logistics.png',
       desc: <>
         <Typography>
           <b>Director: </b> Jeffson Occidental
@@ -272,7 +274,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Sponsorships and Support',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3esc-ZO1UO4t5mAztZUvdno_HWtrhSGMTEZOpQmLTwEPD4jBo1EG-T6j-791L4IHDFRJ9KAaneyGoLryJFw6aI9wYJRyv-E1LorAdRzgJfiTWpH5nF22S4RbATkfVGodFS2gkz0ZvJf3yRq_jXC6Frw=d',
+      img: 'https://samahan-cdn.snry.xyz/SAMAHAN-SAS.png',
       desc: <>
         <Typography>
           <b>Director: </b> Genesis Angelo Villacorta
@@ -294,7 +296,7 @@ const Page = ({ state, actions }) => {
     },
     {
       name: 'Department of Internal Audit',
-      img: 'https://lh3.googleusercontent.com/pw/ACtC-3c1a8VcrrmTroqoRE2dA7x8J3rWaqnrpVdT2-kN1Z_3_9gqUYlqlW6_1mllze85CL7E81unwK295yFMJjrZq-CBkOz-qWaYkrOLD08oVbzWYZW5wjtzwOY1uEEHthZj4nFEuDf7UtqKLVhrqRl-T5y1=d',
+      img: 'https://samahan-cdn.snry.xyz/SAMAHAN-DIA.png',
       desc: <>
         <Typography>
           <b>Director: </b> Harris C. Tuyongan

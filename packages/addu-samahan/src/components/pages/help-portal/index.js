@@ -79,7 +79,7 @@ const Page = ({ state, actions }) => {
           </Typography>
         </Grid>
         <Grid item sm>
-          <img src="https://lh3.googleusercontent.com/pw/ACtC-3d0DflGLR6MS-91a9h78eqiRusShiqJd7cP8QmonaQhCc_oM8viSVsJKER5eNyqvPXJQwZyzCq9KimB2dAZYLJNcRHsQQ7RUf4Z18zqNSrk85sZGQCsrmYNlE0mI0M-AbjU1XIqtGao2_gSd3jgOtRa=d" style={{ width: '100%', height: 'auto' }} />
+          <img src="https://samahan-cdn.snry.xyz/Concerns-Flowchart-White.png" style={{ width: '100%', height: 'auto' }} />
         </Grid>
       </Grid>
 

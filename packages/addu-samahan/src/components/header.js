@@ -19,8 +19,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   title: {
-    marginLeft: theme.spacing(4),
-    marginRight: theme.spacing(4),
+    margin: 'auto'
   },
   secondaryLogo: {
     display: 'none',
@@ -121,7 +120,7 @@ function SearchAppBar() {
             <NavBurger onChosen={() => setDrawer(false)} />
           </Drawer>
           <div className={classes.title}>
-            <Logo src="https://lh3.googleusercontent.com/pw/ACtC-3cuTZoX1s3CGO9OxxgczO5I-qs-7mX2KBngxPe0fLFUTihU66HuGw3pOdbrSAunWLnoUG3oJs0G7zV5s0zTbzFTbR_l1qiA5J4HILS7t32LXImpTQ_Bx6cc6frkZdiZ8ryPXRW-HEqhmC7k8X4ANr8X=d" />
+            <SamahanLogo src="https://samahan-cdn.snry.xyz/Samahan-Top-Bar-Logo.png" />
           </div>
           <Nav />
           <div className={classes.search}>
@@ -146,7 +145,7 @@ function SearchAppBar() {
             <SearchIcon />
           </IconButton>
           <div className={classes.secondaryLogo}>
-            <Logo src="https://lh3.googleusercontent.com/pw/ACtC-3fnyPoQelukGCyVwHZ4IffrGgQmOvO9GLWM5vNLnCSyI60bwjo-cq2DBfmLfWhP4pDyeTiOJ14dRX5RGoAKap5YIreXwRONECLL99_0FJdMGRvPEOlAsnTzFIBubiZmTwmCXXRKr4NE1LjoXF8apQmu=d" />
+            <MotionLogo src="https://samahan-cdn.snry.xyz/More-in-Motion.png" />
           </div>
         </Toolbar>
       </AppBar>
@@ -169,8 +168,14 @@ const Container = styled.div`
   justify-content: flex-start;
 `;
 
-const Logo = styled.img`
-  max-height: 80px;
+const SamahanLogo = styled.img`
+  width: calc(180px + 1.5vw);
+  margin-top: 10px;
+  margin-bottom: 10px;
+`;
+
+const MotionLogo = styled.img`
+  width: calc(80px + 1vw);
   margin-top: 10px;
   margin-bottom: 10px;
 `;

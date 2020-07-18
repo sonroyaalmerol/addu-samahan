@@ -36,7 +36,7 @@ const List = ({ state, actions }) => {
       </Grid>
       <Grid item md>
         <center>
-          <img src="https://lh3.googleusercontent.com/pw/ACtC-3ccjZPv_rB_Z7U3r59dRqx82oWJ0WCPuM_ltKlg8MrHBmq-Y0hcwUlYWw_OZboIThiHiS84bUgY0kKAzGIRAElsaef6SDTecw93F9DT-fC3lEFYj_IlA2bQfvhnEHpW2k0suj4BvI02Op8H0pAddyFD=d" style={{ width: '100%' }} />
+          <img src="https://samahan-cdn.snry.xyz/EX9n9N3UYAAOt62.jpg" style={{ width: '100%' }} />
         </center>
       </Grid>
     </Grid>

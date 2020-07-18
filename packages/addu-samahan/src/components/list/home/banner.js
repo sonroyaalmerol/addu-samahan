@@ -67,7 +67,7 @@ const List = ({ state, actions }) => {
           component="img"
           classes={{ media: classes.bannerNewImage }}
           className={classes.bannerImage}
-          image="https://lh3.googleusercontent.com/pw/ACtC-3fRqVaLVJbpSzH4cLlz_wgoK_WYJS04RFknqlWQNr-SFwvUa9W1kUB03Ljp_xj6CQI6lxKPdFd9WZX9GokiiXb_mlaztXBV9uL5ioXzzHQCKxdpaGltZSatoqtVDl-FUlNMPYxWc1Eovl0ONiMelU2L=d"
+          image="https://samahan-cdn.snry.xyz/img-corousel-1.jpg"
         />
       </div>
       <div className={classes.bannerTextContainer}>

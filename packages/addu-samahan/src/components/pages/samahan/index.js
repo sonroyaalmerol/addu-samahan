@@ -115,8 +115,7 @@ const Page = ({ state, actions }) => {
 
 export default connect(Page);
 
-const Container = styled.section`
+const Container = styled.div`
   width: 80%;
   margin: auto;
-  list-style: none;
 `;

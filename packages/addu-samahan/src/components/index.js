@@ -24,57 +24,75 @@ import NewsFeed from './pages/newsfeed';
 import Samahan from './pages/samahan';
 import SamahanDocs from './pages/samahan-docs';
 
+import Dim from './dim';
+
 /**
  * Theme is the root React component of our theme. The one we will export
  * in roots.
  */
-const Theme = ({ state }) => {
+const Theme = ({ state, actions }) => {
   // Get information about the current URL.
+  const { setIsPageLoaded } = actions.theme;
+
+  React.useEffect(() => {
+    setIsPageLoaded();
+  }, []);
+
   const data = state.source.get(state.router.link);
+  
 
   return (
-    <ThemeProvider theme={theme}>
+    <>
       <CssBaseline />
-      {/* Add some metatags to the <head> of the HTML. */}
-      <Title />
-      <Head>
-        <meta name="description" content={state.frontity.description} />
-        <html lang="en" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@800&display=swap" rel="stylesheet" />
-        <link rel="icon" type="image/png" href="https://samahan-cdn.snry.xyz/favicon.png"></link>
-      </Head>
+      <ThemeProvider theme={theme}>
+        {/* Add some metatags to the <head> of the HTML. */}
+        <Title />
+        <Head>
+          <meta name="description" content={state.frontity.description} />
+          <meta
+            name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width"
+          />
+          <html lang="en" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" />
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@800&display=swap" rel="stylesheet" />
+          <link rel="icon" type="image/png" href="https://samahan-cdn.snry.xyz/favicon.png"></link>
+        </Head>
 
-      {/* Add some global styles for the whole site, like body or a's. 
-      Not classes here because we use CSS-in-JS. Only global HTML tags. */}
+        {/* Add some global styles for the whole site, like body or a's. 
+        Not classes here because we use CSS-in-JS. Only global HTML tags. */}
 
-      {/* Add the header of the site. */}
-      <Header />
+        {/* Add the header of the site. */}
+        <Header />
 
-      {/* Add the main section. It renders a different component depending
-      on the type of URL we are in. */}
-      <Main>
-        <Switch>
-          <Loading when={data.isFetching} />
-          <List when={data.isArchive} />
-          <HelpPortal when={data.isHelpPortal} />
-          <Samahan when={data.isSamahan} />
-          <Calendar when={data.isCalendar} />
-          <StudentServicesManual when={data.isStudentServices} />
-          <IHelp when={data.isiHelp} />
-          <ConsiNatinTo when={data.isConsti} />
-          <NewsFeed when={data.isNewsFeed} />
-          <Clubs when={data.isClubs} />
-          <Officers when={data.isOfficers} />
-          <SamahanDocs when={data.isDocs} />
-          <Post when={data.isPostType} />
-          <PageError when={data.isError} />
-        </Switch>
-      </Main>
+        {/* Add the main section. It renders a different component depending
+        on the type of URL we are in. */}
+        <Main>
+          <Switch>
+            <Loading when={data.isFetching} />
+            <List when={data.isArchive} />
+            <HelpPortal when={data.isHelpPortal} />
+            <Samahan when={data.isSamahan} />
+            <Calendar when={data.isCalendar} />
+            <StudentServicesManual when={data.isStudentServices} />
+            <IHelp when={data.isiHelp} />
+            <ConsiNatinTo when={data.isConsti} />
+            <NewsFeed when={data.isNewsFeed} />
+            <Clubs when={data.isClubs} />
+            <Officers when={data.isOfficers} />
+            <SamahanDocs when={data.isDocs} />
+            <Post when={data.isPostType} />
+            <PageError when={data.isError} />
+          </Switch>
+        </Main>
 
-      <Footer />
-      
-    </ThemeProvider>
+        <Footer />
+        
+        { !state.theme.isPageLoaded ? <Dim /> : null }
+        
+        
+      </ThemeProvider>
+    </>
   );
 };
 

@@ -23,6 +23,7 @@ const samahanTheme = {
      */
     theme: {
       menu: [],
+      isPageLoaded: false,
       isMobileMenuOpen: false,
       featured: {
         showOnList: false,
@@ -56,6 +57,9 @@ const samahanTheme = {
       },
       closeMobileMenu: ({ state }) => {
         state.theme.isMobileMenuOpen = false;
+      },
+      setIsPageLoaded: ({ state }) => {
+        state.theme.isPageLoaded = true;
       },
     },
   },

@@ -50,7 +50,7 @@ const List = ({ state, actions }) => {
 
 export default connect(List);
 
-const Container = styled.section`
+const Container = styled.div`
   width: '100%';
   margin: 0;
   list-style: none;

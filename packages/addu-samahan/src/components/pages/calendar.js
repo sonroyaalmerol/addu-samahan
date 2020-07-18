@@ -32,7 +32,7 @@ const Page = ({ state, actions }) => {
 
 export default connect(Page);
 
-const Container = styled.section`
+const Container = styled.div`
   width: '100%';
   margin: 0;
 `;

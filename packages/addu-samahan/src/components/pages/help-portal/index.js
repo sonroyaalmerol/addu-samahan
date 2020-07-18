@@ -175,7 +175,7 @@ const Page = ({ state, actions }) => {
                     <ul>
                       <li>
                         Columbia Computer Center, Inc. Main Branch Palma Gil Street, Davao City (in front of Pasalubong Center) Tel (082) 2862388 or 09209011835
-                        <Typography>You may order online thru COLUMBIA COMPUTER CENTER DAVAO (FB Page) at https://www.facebook.com/columbiacomputercenterdavao/</Typography>
+                        <br />You may order online thru COLUMBIA COMPUTER CENTER DAVAO (FB Page) at https://www.facebook.com/columbiacomputercenterdavao/
                       </li>
                       <li>iCenter Davao Stores:  iGadgetworld – SM Lanang – (082) 3272156 iCenter SM Ecoland – (082) 3210214 iCenter Abreeza  – (082) 3336742 iCenter Gmall  – (082) 2369572  </li>
                     </ul>
@@ -214,18 +214,17 @@ const Page = ({ state, actions }) => {
                   <div>
                     <ol>
                       <li>Take three pictures of yourself.</li>
-                      <li>
                         <ul>
                           <li>Torso/upper body (includes head down to elbows) holding AdDU ID close to head</li>
                           <li>Closeup of face with AdDU ID close to face</li>
                           <li>Closeup of AdDU ID</li>
                         </ul>
-                        <Typography>Note : Make sure that the ID and the ID number is visible and legible on all three pictures. If AdDU ID is not available, a student may use a driver’s license, passport, voter’s ID or any proof for identification.</Typography>
-                      </li>
+                        Note : Make sure that the ID and the ID number is visible and legible on all three pictures. If AdDU ID is not available, a student may use a driver’s license, passport, voter’s ID or any proof for identification.
+                      
                       <li>Send an email to gdsabaldan@addu.edu.ph and mtropenia@addu.edu.ph with the attached photos, complete name and course.</li>
                       <li>Follow the specific instructions provided by them.</li>
                     </ol>
-                    <Typography>Note: Working hours of the personnel run from 8 AM to 5 PM.</Typography>
+                    Note: Working hours of the personnel run from 8 AM to 5 PM.<br/>
                     This office manages the Student Personal Accident Insurance, off-campus housing accreditation, the beadle system, the Culture and Arts Program, the Arrupe Hall and Martin Building, and Lost and Found items.
                   </div>
                 </AccordionDetails>
@@ -263,8 +262,8 @@ const Page = ({ state, actions }) => {
                       <li>Go to your preferred online platform (i.e. BPI, BDO, PNB, Gcash, etc.) </li>
                       <li>Open Bills Payment.</li>
                       <li>
-                        Input the amount and other required information. 
-                        <Typography>Note: Information must include student’name and ID number. Institution codes and AdDU’s account information can be found at the SIS.</Typography>
+                        Input the amount and other required information. <br />
+                        Note: Information must include student’name and ID number. Institution codes and AdDU’s account information can be found at the SIS.
                       </li>
                       <li>Confirm the transaction.</li>
                     </ol>
@@ -304,8 +303,8 @@ const Page = ({ state, actions }) => {
                     <ol>
                       <li>Open the QPI Appeal Form available in the SIS account.</li>
                       <li>
-                        Fill in necessary information in the QPI Appeal Form and click the “Submit” button upon completion.
-                        <Typography>Note: The University Standards Committee deliberates QPI Appeals endorsed by the Academic Vice President. If an application of a student for QPI Appeal has been approved for a probationary enrolment in his/her program, the Department Chairperson will be notified in his/her Administrator Information Management account. The Department Chairperson will advise the student of his/her maximum course load and list of courses to enroll in the following semester.</Typography>
+                        Fill in necessary information in the QPI Appeal Form and click the “Submit” button upon completion. <br />
+                        Note: The University Standards Committee deliberates QPI Appeals endorsed by the Academic Vice President. If an application of a student for QPI Appeal has been approved for a probationary enrolment in his/her program, the Department Chairperson will be notified in his/her Administrator Information Management account. The Department Chairperson will advise the student of his/her maximum course load and list of courses to enroll in the following semester.
                       </li>
                       <li>A notification will appear in the SIS account. If approved, students can now enroll by following online enrollment procedures.</li>
                       Note: A disapproved notification means dismissal from the university. The student may re-appeal to AVP by sending e-mail to vp.academics@addu.edu.ph.
@@ -345,8 +344,8 @@ const Page = ({ state, actions }) => {
                       <li>Open the Shifting Form available in the SIS account.</li>
                       <li>Fill in the necessary information and click “Submit” button once completed.</li>
                       <li>
-                        Wait for the notification of approval from the current Department Chairperson and the Department Chairperson of the desired new program. The notice will appear in the SIS account.
-                        <Typography>Note: If shifting application is approved, the student will be released by his/her Department Chairperson. The Department Chairperson of the new program is notified through the Administrator Information Management account and will create a new enrolment registration for the student. The Chairperson will also determine maximum course load and academic status of the student.</Typography>
+                        Wait for the notification of approval from the current Department Chairperson and the Department Chairperson of the desired new program. The notice will appear in the SIS account. <br />
+                        Note: If shifting application is approved, the student will be released by his/her Department Chairperson. The Department Chairperson of the new program is notified through the Administrator Information Management account and will create a new enrolment registration for the student. The Chairperson will also determine maximum course load and academic status of the student.
                       </li>
                       <li>The student may enroll following the online procedures once the notification of approval to shift is received.</li>
                     </ol>
@@ -363,9 +362,9 @@ const Page = ({ state, actions }) => {
                 </AccordionSummary>
                 <AccordionDetails>
                   <div>
-                    <Typography>For applicants applying for financial aid grant (GIA), proceed to the link: bit.ly/GIAApplication</Typography>
-                    <Typography>For applicants who graduated as valedictorian or salutatorian, proceed to the link: bit.ly/ValSalApplication</Typography>
-                    <Typography>Make sure to indicate your active email address and mobile number.  For further announcements, visit the Ateneo de Davao – College Admission and Aid on Facebook and the the Ateneo de Davao Scholars Society Page.</Typography>
+                    For applicants applying for financial aid grant (GIA), proceed to the link: bit.ly/GIAApplication <br /><br />
+                    For applicants who graduated as valedictorian or salutatorian, proceed to the link: bit.ly/ValSalApplication <br /><br />
+                    Make sure to indicate your active email address and mobile number.  For further announcements, visit the Ateneo de Davao – College Admission and Aid on Facebook and the the Ateneo de Davao Scholars Society Page. <br />
                   </div>
                 </AccordionDetails>
               </Accordion>
@@ -418,9 +417,9 @@ const Page = ({ state, actions }) => {
                 </AccordionSummary>
                 <AccordionDetails>
                   <div>
-                    <Typography>Incoming freshmen from AdDU SHS. Check your email at http://blueknights.addu.edu.ph for your applicant ID. Use your WiFi account to log in.</Typography>
-                    <Typography>Non-AdDU SHS Applicants who have not taken the entrance exam. Applicants need to fill out the Admission online application form at http://bit.ly/AdDUapplicationform</Typography>
-                    <Typography>For Non-AdDU who have taken the Entrance exam, kindly monitor your email address.</Typography>
+                    Incoming freshmen from AdDU SHS. Check your email at http://blueknights.addu.edu.ph for your applicant ID. Use your WiFi account to log in.<br />
+                    Non-AdDU SHS Applicants who have not taken the entrance exam. Applicants need to fill out the Admission online application form at http://bit.ly/AdDUapplicationform<br />
+                    For Non-AdDU who have taken the Entrance exam, kindly monitor your email address.<br />
                     <ol>
                       <li>MIS or Admissions send the NOA with applicant ID thru email.</li>
                       <li>Applicants must complete information via https://enlist.addu.edu.ph</li>
@@ -466,12 +465,12 @@ const Page = ({ state, actions }) => {
 
 export default connect(Page);
 
-const Container = styled.section`
+const Container = styled.div`
   width: '100%';
   margin: 0;
 `;
 
-const ContentContainer = styled.section`
+const ContentContainer = styled.div`
   width: '80%';
   margin: 'auto';
 `;

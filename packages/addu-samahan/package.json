@@ -1,0 +1,25 @@
+{
+  "name": "addu-samahan",
+  "version": "1.4.3",
+  "description": "Wordpress theme for AdDU SAMAHAN",
+  "keywords": [
+    "frontity",
+    "frontity-theme",
+    "addu",
+    "samahan"
+  ],
+  "homepage": "https://samahan.addu.edu.ph",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frontity/frontity.git"
+  },
+  "bugs": {
+    "url": "https://community.frontity.org"
+  },
+  "dependencies": {
+    "@frontity/components": "^1.3.3",
+    "@frontity/html2react": "^1.3.4",
+    "frontity": "^1.9.0"
+  }
+}

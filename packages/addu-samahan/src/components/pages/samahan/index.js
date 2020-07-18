@@ -1,7 +1,6 @@
 import React from "react";
 import { connect, styled, decode } from "frontity";
 import { fade, makeStyles } from '@material-ui/core/styles';
-import SamahanMotionLogo from '../../../assets/samahanMotion.svg';
 
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
@@ -70,7 +69,7 @@ const Page = ({ state, actions }) => {
       <div className={classes.spacer} />
       <Grid container direction="row" spacing={3} alignItems="center" className={classes.contentContainer}>
         <Grid item sm className={classes.motionLogoContainer}>
-          <img src={SamahanMotionLogo} className={classes.motionLogo} />
+          <img src="https://samahan-cdn.snry.xyz/samahanMotion.svg" className={classes.motionLogo} />
         </Grid>
         <Grid item sm={9} component={Paper} elevation={0}>
           <Typography variant="h3" component="h4" className={classes.contentHeader} style={{ marginBottom: 20 }}>

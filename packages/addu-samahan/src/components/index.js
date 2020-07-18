@@ -24,8 +24,6 @@ import NewsFeed from './pages/newsfeed';
 import Samahan from './pages/samahan';
 import SamahanDocs from './pages/samahan-docs';
 
-import Favicon from '../assets/favicon.png';
-
 /**
  * Theme is the root React component of our theme. The one we will export
  * in roots.
@@ -44,7 +42,7 @@ const Theme = ({ state }) => {
         <html lang="en" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@800&display=swap" rel="stylesheet" />
-        <link rel="icon" type="image/png" href={Favicon}></link>
+        <link rel="icon" type="image/png" href="https://samahan-cdn.snry.xyz/favicon.png"></link>
       </Head>
 
       {/* Add some global styles for the whole site, like body or a's. 

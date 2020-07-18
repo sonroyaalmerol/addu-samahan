@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-between',
     marginTop: 40,
     width: 285,
+    margin: 'auto',
     borderRadius: 0,
   },
   cardMedia: {

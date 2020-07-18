@@ -31,7 +31,8 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: 0,
   },
   cardMedia: {
-    height: 350,
+    height: 'auto',
+    width: '100%'
   },
   dividerBoardMembers: {
     flexGrow: 1,
@@ -111,66 +112,42 @@ const Page = ({ state, actions }) => {
         <Grid item sm={4}>
           <Card className={classes.cardRoot} elevation={0} variant="outlined">
             <CardActionArea onClick={() => setAdvocasix(0)}>
-              <CardMedia
-                className={classes.cardMedia}
-                image="https://samahan-cdn.snry.xyz/CA2-scaled.jpg"
-                title="Climate Action"
-              />
+              <img src="https://samahan-cdn.snry.xyz/CA2-scaled.jpg" className={classes.cardMedia} />
             </CardActionArea>
           </Card>
         </Grid>
         <Grid item sm={4}>
           <Card className={classes.cardRoot} elevation={0} variant="outlined">
             <CardActionArea onClick={() => setAdvocasix(1)}>
-              <CardMedia
-                className={classes.cardMedia}
-                image="https://samahan-cdn.snry.xyz/MH1-scaled.jpg"
-                title="Mental Health"
-              />
+              <img src="https://samahan-cdn.snry.xyz/MH1-scaled.jpg" className={classes.cardMedia} />
             </CardActionArea>
           </Card>
         </Grid>
         <Grid item sm={4}>
           <Card className={classes.cardRoot} elevation={0} variant="outlined">
             <CardActionArea onClick={() => setAdvocasix(2)}>
-              <CardMedia
-                className={classes.cardMedia}
-                image="https://samahan-cdn.snry.xyz/RP-scaled.jpg"
-                title="Rural Poor"
-              />
+              <img src="https://samahan-cdn.snry.xyz/RP-scaled.jpg" className={classes.cardMedia} />
             </CardActionArea>
           </Card>
         </Grid>
         <Grid item sm={4}>
           <Card className={classes.cardRoot} elevation={0} variant="outlined">
             <CardActionArea onClick={() => setAdvocasix(3)}>
-              <CardMedia
-                className={classes.cardMedia}
-                image="https://samahan-cdn.snry.xyz/GG-scaled.jpg"
-                title="Good Governance"
-              />
+              <img src="https://samahan-cdn.snry.xyz/GG-scaled.jpg" className={classes.cardMedia} />
             </CardActionArea>
           </Card>
         </Grid>
         <Grid item sm={4}>
           <Card className={classes.cardRoot} elevation={0} variant="outlined">
             <CardActionArea onClick={() => setAdvocasix(4)}>
-              <CardMedia
-                className={classes.cardMedia}
-                image="https://samahan-cdn.snry.xyz/YL-scaled.jpg"
-                title="Youth Empowerment and Leadership"
-              />
+              <img src="https://samahan-cdn.snry.xyz/YL-scaled.jpg" className={classes.cardMedia} />
             </CardActionArea>
           </Card>
         </Grid>
         <Grid item sm={4}>
           <Card className={classes.cardRoot} elevation={0} variant="outlined">
             <CardActionArea onClick={() => setAdvocasix(5)}>
-              <CardMedia
-                className={classes.cardMedia}
-                image="https://samahan-cdn.snry.xyz/P-scaled.jpg"
-                title="Peacebuilding"
-              />
+              <img src="https://samahan-cdn.snry.xyz/P-scaled.jpg" className={classes.cardMedia} />
             </CardActionArea>
           </Card>
         </Grid>
